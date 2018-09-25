@@ -1,0 +1,978 @@
+/*.....................................scrolltop............................................*/
+.scrollTop{
+	display:none;
+	color:white;
+	background-color:#252525;
+	position:fixed;
+	bottom:0px;
+	right:50px;
+	padding:3px 20px;
+	outline: none;
+	border:none;
+	font-size:25px;	
+	z-index:1000;
+	transition: 1s ease;
+}
+.scrollTop:focus{
+	border:none;
+	outline:none;
+}
+/*.....................................navbar............................................*/
+.santo_navbar{
+	/*background-color: rgb(44, 44, 44);*/
+	transition: 0.5s ease;
+	padding: 0px;
+	margin:0px;
+}
+.santo_navbar a{
+	padding:0px;
+}
+.santo_navbar img{
+	padding:25px 10px;
+	margin-top:0px;
+	background-color:rgb(44, 44, 44);
+	margin-bottom: 0px;
+}
+.santo_navbar a{
+	padding-left: 150px;
+}
+.santo_navbar .navbar-brand img{
+	height:55%;
+	width:55%;
+}
+.santo_navbar_class .nav-pills .nav-link.active{
+	background-color: rgb(44, 44, 44)!important;
+	color:white !important;
+}
+.santo_navbar_class ul li a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color:lightgray;
+}
+.santo_navbar_class ul li:hover a{
+	color:white;
+}
+.carousel_img_height{
+	height: 650px;
+}
+.hr_white_carousel{
+	background-color: white;
+	height: 1px;
+}
+.hr_white_carousel_2{
+	background-color: white;
+	height: 10px;	
+	width:10%;
+}
+#santo_carousel .carousel-inner .carousel-caption a i{
+	border:4px solid white;
+	padding:10px 12px;					
+	font-weight: 900;
+}
+#santo_carousel .carousel-inner .carousel-caption h3{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 30px;
+}
+#santo_carousel .carousel-inner .carousel-caption{
+	padding-bottom: 150px;
+}
+#santo_carousel .carousel-inner .carousel-caption h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 140px;
+}
+#santo_carousel .carousel-control-prev{
+	visibility: hidden;
+}
+
+#santo_carousel .carousel-control-next{
+	visibility: hidden;
+}
+#santo_carousel:hover .carousel-control-prev{
+	visibility: visible !important;
+}
+
+#santo_carousel:hover .carousel-control-next{
+	visibility: visible !important;
+}
+#santo_carousel .carousel-control-prev .carousel-control-prev-icon{
+	position:relative;
+	top:230px;
+	border:4px solid white;
+	left:100px;
+}
+#santo_carousel .carousel-control-next .carousel-control-next-icon{
+	position:relative;
+	top:230px;
+	right:1000px;
+	border:4px solid white;
+}
+/*.................................our_works......................................*/
+.our_works h1{
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	color:rgb(44, 44, 44);
+	padding: 150px 0 40px 0;
+}
+.our_works hr{
+	width:20%;
+}
+.our_works p{
+	font-size: 25px;
+	width: 70%;
+}
+.our_works h5{
+	color:#999999;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 600;
+}
+/*..................................our_works_header..................................*/
+.our_work_portfolio ul{
+	padding:15px;
+	background-color: rgb(245, 249, 250);
+	width:100%;
+}
+.our_work_portfolio ul li{
+	display:inline;
+	border:5px solid white;
+	padding:8px 15px;
+	line-height: 35px;	
+	font-family: 'Oswald', sans-serif;
+}
+.our_work_portfolio ul li:hover{
+	border:4px solid black;
+}
+/*.................................portfolio_images_tab.....................................*/
+.portfolio_images_tab ul{
+	background-color: rgb(245, 249, 250);
+	width:97.5%;
+	margin:auto;
+	font-family: 'Oswald', sans-serif;
+}
+.portfolio_images_tab ul li{
+	border:4px solid white;
+	padding:0px 5px;
+	margin:3px;
+}
+.portfolio_images_tab ul li:hover{
+	border:4px solid black;
+}
+.portfolio_images_tab ul li:active{
+	border:4px solid black;
+}
+.portfolio_images_tab ul li a{
+	text-decoration: none;
+	color:black;
+
+}
+.portfolio_images{
+	width:100%;
+	margin:auto;
+}
+.portfolio_images img{
+	position:absolute;
+	width:92%;
+	transition: 1s ease;
+}
+.overlay{
+	background-color: rgba(44,44,44,0.1);
+	transition: 1s ease;
+	position:relative;
+	padding-bottom: 29px;
+}
+.overlay:hover{
+	background-color: rgba(44,44,44,0.9);
+}
+
+.portfolio_images .bottom_text{
+	position:relative;
+	top:162px;
+	font-family: 'Playfair Display', serif;
+	font-style:italic;
+	background-color: rgb(44, 44, 44);
+	font-size:13px;
+	transition: .6s ease;
+	opacity:1;
+}
+.portfolio_images .overlay:hover .bottom_text{
+	top:200px;
+	opacity: 0;
+}
+.portfolio_images .overlay .left_text{
+	position:relative;
+	left:30px;
+	bottom:50px;
+	background:none;
+	font-weight: 600;
+	font-family: 'Playfair Display', serif;
+	font-style:italic;
+	font-size:17px;
+	transition: .6s ease;
+	opacity:0;
+	padding:0;
+}
+.portfolio_images .overlay:hover .left_text{
+	bottom:50px;
+	left:-10px;
+	opacity: 1;
+}
+.portfolio_images .overlay .right_text {
+	position:relative;
+	left:0px;
+	bottom:20px;
+	font-size:30px;
+	transition: 0.8s ease;
+	opacity:0;
+	padding:0;
+	
+}
+.portfolio_images .overlay:hover .right_text{
+	left:50px;
+	bottom:20px;
+	opacity: 1;
+	}
+.portfolio_images .overlay .right_text{
+	background:none;
+	width:22%;
+	opacity:0;
+	}
+.portfolio_images .overlay .right_text:hover{
+	background:rgb(44,44,44);
+	width:22%;
+	opacity:1;
+	}
+/*.................................always_ready.......................................*/
+.overlay_always_ready{
+	background:rgba(0,0,0,0.5);
+	padding-bottom: 150px;
+}
+.always_ready{
+    background-attachment: fixed;
+    background-image: url("../images/b-bg1.jpg");
+    background-size: cover;
+	width:100%;
+}
+.always_ready h1{
+	padding-top:200px;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+}
+.always_ready a{
+	padding-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+
+}
+.always_ready button{
+	background-color:rgb(44,44,44);
+	border:none;
+	width:15%;
+	outline:none;
+	font-style: italic;
+	font-size: 14px;
+}
+/*....................................the_skew_styling.........................................*/
+.always_ready, .are_the_best, .customer_satisfaction, .happy_clients, .our_client_thumbnail{
+	position:relative;
+}
+.always_ready::after, .always_ready::before, .customer_satisfaction::after, .customer_satisfaction::before, .happy_clients::after, .happy_clients::before{
+	position:absolute;
+	content:'';
+	width:50%;
+	height:100px;
+	background-color:white;
+	bottom:-35px;
+	z-index: 100;
+}
+.are_the_best::after, .are_the_best::before, .our_client_thumbnail::after, .our_client_thumbnail::before{
+	background-color:#333435;
+	position:absolute;
+	content:'';
+	width:50%;
+	height:100px;
+	/*background-color:white;*/
+	bottom:-35px;
+	z-index: 100;
+}
+.always_ready::before, .are_the_best::before, .customer_satisfaction::before, .happy_clients::before, .our_client_thumbnail::before{
+	right:50%;
+	transform: skew(0, 5deg);	
+}
+.always_ready::after, .are_the_best::after, .customer_satisfaction::after, .happy_clients::after, .our_client_thumbnail::after{
+	left:50%;
+	transform: skew(0, -5deg);	
+}
+/*.......................................about_us.....................................*/
+.our_works .about_us{
+	width:80%;
+}
+/*..................................about_us_tabs.....................................*/
+.about_us_container_1{
+	width:80%;
+}
+.about_us_nav .nav-pills .nav-item .nav-link.active{
+	background-color:rgb(44,44,44)!important;
+	color:white!important;
+}
+ .about_us_nav .nav-item a{
+	color:gray!important;
+	font-family: 'Playfair Display', serif;
+	font-style: italic; 
+	font-size: 14px;
+	font-weight: 600;
+}
+ .about_us_nav .nav-item:hover a{
+	color:black!important;
+}
+.about_us_container_3{
+	padding-bottom: 200px;
+	background:white;
+}
+.about_us_container_3 .card{
+	border:none;
+}
+.about_us_container_3 .card .card-body .card-text{
+	font-size: 14px;
+}
+.about_us_tab{
+	border: 1px solid lightgray;
+    box-shadow: 5px 0px 8px 0px lightgray;
+	border-bottom: none;
+	border-left:none;
+}
+.about_us_tab iframe{
+	border:none;
+}
+.about_us_tab .about_us_tab2{
+	font:font-family: "open sans", sans-serif;
+    }
+.about_us_tab .about_us_tab2 .card{
+	border: 1px solid lightgray;
+	box-shadow: 5px 0px 5px 0px lightgray;
+	background-color: rgb(246, 249, 250);
+	border-left: 0.5 solid whitesmoke;
+	padding: 0px 10px;
+}
+.about_us_tab .about_us_tab2 .card .card-header{
+	font-size:35px;
+	font-weight: bold;
+	color:rgb(37,37,37);
+	background:none;
+}
+.about_us_tab .about_us_tab2 .card .card-header .card-body .card-text{
+	font-size: 16px;
+}
+.about_us_tab .about_us_tab2 .card .card-header .card-body .card-text1{
+	font-size: 14px;
+}
+.tab_carousel{
+	padding-bottom:130px;
+	padding-top: 0;
+}
+.tab_carousel .carousel1 ol{
+	position:relative;
+	top:334px;
+	left:-76px;
+}
+.tab_carousel .carousel1 .carousel-indicators li{
+	width:5px;
+}
+.achievement_carousel {
+	padding-top: 50px;
+}
+.achievement_carousel #carouselExampleControls {
+	border:1px solid gray;
+	box-shadow: 3px 0px 5px 3px gray;
+}
+.achievement_carousel #carouselExampleControls .carousel-control-prev-icon{
+	position:relative;
+	top:100px;
+	left:250px;
+	background-color: rgb(44,44,44);
+	padding:10px;
+
+}
+.achievement_carousel #carouselExampleControls .carousel-control-next-icon{
+	position:relative;
+	top:100px;
+	right:30px;
+	background-color: rgb(44,44,44);
+	padding:10px;
+}
+/*.................................are_the_best.......................................*/
+.overlay_are_the_best{
+	background-color:rgba(0,0,0,0.5);
+	padding-bottom: 250px;
+}
+.are_the_best{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../images/b-bg2.jpg");
+	width:100%;
+}
+.are_the_best h1{
+	padding-top:200px;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+}
+.are_the_best a{
+	padding-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+
+}
+.are_the_best button{
+	background-color:rgb(44,44,44);
+	border:none;
+	width:15%;
+	outline:none;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/*...................................our_team.........................................*/
+.our_team{
+	background-color: rgb(51, 52, 53);
+}
+.our_team h1{
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	padding: 150px 0 40px 0;
+}
+.our_team hr{
+	width:20%;
+	background-color: white;
+}
+.our_team p{
+	font-size: 25px;
+	width: 85%;
+}
+.our_team h5{
+	color:#999999;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 600;
+}
+.team_images{
+	z-index: 5;
+}
+.team_images .image_team:hover{
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -ms-transform: scale(1.05,1.05); 
+    -webkit-transform: scale(1.05,1.05); 
+    transform: scale(1.05,1.05); 
+    transition: 0.2s linear;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.team_images .image_team_caption1{
+	background-color: rgb(51, 52, 53);
+	-ms-transform: skew(6deg,-6deg);
+    -webkit-transform: skew(6deg,-6deg); 
+    transform: skew(6deg,-6deg); 
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    opacity: 1;
+    transition: 0.2s linear;
+    top:0px;
+}
+.team_images .team_div:hover .image_team_caption1{
+	position:relative;
+	top:70px;
+	opacity:0;
+}
+.team_images .image_team_caption2{
+	background-color: rgb(44,44,44);
+	-ms-transform: skew(6deg,-6deg); 
+    -webkit-transform: skew(6deg,-6deg); 
+    transform: skew(6deg,-6deg); 
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.2s linear;
+    bottom:0px;
+}
+.team_images .team_div:hover .image_team_caption2{
+	position:relative;
+	bottom:70px;
+	opacity:1;
+}
+/*............................customer_satisfaction......................................*/
+.overlay_customer_satisfaction{
+	background-color:rgba(0,0,0,0.5);
+	padding-bottom: 200px;
+}
+.customer_satisfaction{
+    background-attachment: fixed;
+    background-image: url("../images/b-bg3.jpg");
+    background-size: cover;
+	width:100%;
+}
+.customer_satisfaction h1{
+	padding-top:200px;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+}
+.customer_satisfaction a{
+	padding-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+
+}
+.customer_satisfaction button{
+	background-color:rgb(44,44,44);
+	border:none;
+	width:15%;
+	outline:none;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/*..................................our_strategy......................................*/
+.our_strategy .card{
+	border:18px solid gray;
+	padding:15px;
+	font-family: 'Montserrat', sans-serif;
+	background:#f8f8f8;
+
+}
+.our_strategy .card a{
+	border:4px solid rgb(51, 52, 53);
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 18px;
+	background-color:rgb(44,44,44);
+	color:white;
+}
+.our_strategy .card:hover a{
+	color:rgb(44,44,44);
+	background-color:white;
+}
+.our_strategy .card:hover{
+	color:white;
+	background:rgb(44,44,44);
+	border:18px solid rgb(51, 52, 53);
+}
+.our_strategy .card .card-text{
+	line-height: 35px;
+	list-style-type: none;
+	display:inline;
+}
+.our_strategy .card .card-body .card-title{
+	font-weight: 900;
+}
+.our_strategy .card .card-body .card-title span{
+	font-size:12px;
+	font-style: italic;
+}
+/*.................................happy_clients......................................*/
+.overlay_happy_clients{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color:rgba(0,0,0,0.5);
+}
+.happy_clients{
+	background-attachment: fixed;
+    background-image: url("../images/b-bg5.jpg");
+    background-size: cover;
+	width:100%;
+}
+.happy_clients .happy_clients_border{
+	border:20px solid #333435;
+	padding:20px;
+}
+.happy_clients .happy_clients_body{
+	color:white;
+	padding:10px 25px;
+	margin:auto;
+	width:100%;
+	background-color: rgb(44,44,44);
+	font-family: 'Montserrat', sans-serif;
+}
+.happy_clients .happy_clients_body h1{
+	font-size: 80px;
+	font-weight: 900;
+}
+ /*..................................our_services....................................*/
+ .our_services h1{
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	color:rgb(44, 44, 44);
+	padding: 150px 0 40px 0;
+}
+.our_services hr{
+	width:20%;
+}
+.our_services p{
+	font-size: 25px;
+	width: 80%;
+}
+.our_services h5{
+	color:#999999;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 600;
+}
+/*.....................................what_we_offer_tabs......................................*/
+.what_we_offer_tabs_container_1{
+	box-shadow: 0px 0px 10px lightgray;
+}
+.what_we_offer_tabs_container_1 .what_we_offer_tabs_tab .what_we_offer_tabs_tab1{
+	padding:0px 30px;
+}
+.what_we_offer_tabs_container_1 .what_we_offer_tabs_tab .what_we_offer_tabs_tab1 .card-body{
+	background:rgb(246, 249, 250);
+	font-size:93%;
+	box-shadow: 0px 0px 10px lightgray;
+}
+.what_we_offer_tabs_tab12{
+	padding:0px 30px;
+}
+.what_we_offer_tabs_tab12 .card{
+	background:rgb(246, 249, 250);
+	box-shadow: 0px 0px 10px lightgray;
+}
+.what_we_offer_tabs_nav .nav-pills .nav-item .nav-link.active{
+	background-color:rgb(44,44,44)!important;
+	color:white!important;
+}
+ .what_we_offer_tabs_nav .nav-item a{
+	color:gray!important;
+	font-family: 'Playfair Display', serif;
+	font-style: italic; 
+	font-size: 14px;
+	font-weight: 600;
+}
+ .what_we_offer_tabs_nav .nav-item:hover a{
+	color:black!important;
+}
+/*..............................ready_to_work.........................................*/
+.ready_to_work button{
+	border:5px solid rgb(51, 52, 53);
+}
+.ready_to_work button:hover{
+	background:rgb(51, 52, 53);
+}
+/*.................................our_client_thumbnail.......................................*/
+.overlay_our_client_thumbnail{
+	background-color:rgba(0,0,0,0.5);
+	padding:300px 0px;
+}
+.our_client_thumbnail{
+    background-attachment: fixed;
+    background-image: url("../images/work-img-5.jpg");
+    background-size: cover;
+	width:100%;
+}
+/*...................................client_carousel........................................*/
+#client_carousel_indicator .carousel-indicators li{
+	width:5px;
+	border-radius: 50%;
+	padding: 5px;
+	margin:12px;
+	}
+.client_carousel{
+	background-color: rgb(44,44,44);
+}
+.client_carousel i{
+	font-size: 100px;
+	color:rgb(51, 52, 53);
+}
+
+
+/*...................................contact_us.........................................*/
+.our_services h1{
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	color:rgb(44, 44, 44);
+	padding: 150px 0 40px 0;
+}
+.our_services hr{
+	width:20%;
+}
+.our_services p{
+	font-size: 25px;
+	width: 80%;
+}
+.our_services h5{
+	color:#999999;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 600;
+}
+/*................................contact_us_tabs.................................*/
+
+.contact_us_tabs .contact_us_tabs_content_office_col1{
+	box-shadow: 0px 0px 10px lightgray;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body{
+	background-color:rgb(248, 248, 248);
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body i{
+	border:3px solid black;
+	background:rgb(44,44,44);
+	color:#888;
+	padding: 12px;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body span:hover i{
+	color:#fff;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color:#888;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body span:hover a{
+	color:#000;
+	text-decoration: none;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col1 h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col3 h6{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	line-height: 0px;
+	color:rgb(44,44,44);
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col3 hr{
+	background-color: rgb(221, 221, 221);
+	height:2px;
+	border:none;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col3 a{
+	border:3px solid black;
+	background:rgb(44,44,44);
+	color:#888;
+	padding: 10px 11px;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px gray;
+	}
+.contact_us_tabs .contact_us_tabs_content_office_col3 a:hover{
+	color:#fff;
+	}
+.contact_us_tabs_content_message .contact_us_tabs_content_message_col1 h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	margin-bottom:100px;
+	color:rgb(44,44,44);
+	}
+.contact_us_tabs_content_message .contact_us_tabs_content_message_col1{
+	box-shadow: 0px 0px 10px lightgray;
+	}
+.contact_us_tabs_content_message_col2 form input{
+	box-shadow: 0px 0px 10px lightgray;
+	padding:18px;
+	outline: none;
+}
+.contact_us_tabs_content_message_col2 form input:focus{
+	outline:none!important;
+	border-bottom-color: black;
+
+}
+.contact_us_tabs_content_message_col2 form textarea{
+	box-shadow: 0px 0px 5px lightgray;
+	height:200px;
+}
+.contact_us_tabs_content_message_col2 form textarea:focus{
+	border-bottom-color: black;
+}
+.contact_us_tabs_content_message_col2 form button{
+	width:200px;
+	border:3px solid lightgray;
+	background-color: white;
+	font-size: 15px;
+	padding:3px 10px;
+	margin:30px 0px;
+}
+.contact_us_tabs_content_message_col2 form button:hover{
+	border:3px solid black;
+	background-color: rgb(44,44,44);
+	color:white;
+	transition: 0.3s linear; 
+}
+.contact_us_tabs ul{
+	background-color: rgb(255, 255, 255);
+}
+.contact_us_tabs li{
+	box-shadow: 0px 0px 2px lightgray;
+}
+.contact_us_tabs li a{
+	padding:8px;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-decoration: none;
+	color:gray;
+	font-weight: 600;
+}
+.contact_us_tabs li a:hover{
+	color:white;
+}
+.contact_us_tabs li:hover{
+	background-color:black;
+}
+/*................................latest_post.....................................*/
+
+.latest_post{
+	background:rgb(44,44,44);
+	color: gray;
+}
+.latest_post h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+}
+.latest_post .latest_post_column1 img{
+	width:40%;
+	background-color: rgb(51,52,53);
+}
+.latest_post .latest_post_column1 .latest_post_column1_row a{
+	color:rgb(99,99,99);
+	font-size: 10px;
+	padding: 13px;
+	border:4px solid rgb(51,52,53);
+	margin:auto;
+	width:12%;
+}
+.latest_post .latest_post_column1 .latest_post_column1_row a:hover{
+	color:white;
+}
+.latest_post .latest_post_column2 a{
+	color: gray;
+	text-decoration: none;
+	font-size:13px;
+	font-family: "open sans", sans-serif;
+}
+.latest_post .latest_post_column2 a:hover{
+	color: white;
+}
+.latest_post .latest_post_column3 .border_1{
+	border:5px solid rgb(51,52,53);
+	border-radius: 50%;
+}
+.latest_post .latest_post_column3 img:hover{
+	-ms-transform: scale(0.9,0.9);  
+    -webkit-transform: scale(0.9,0.9);  
+    transform: scale(0.9,0.9); 
+    transition: 0.6s linear;
+}
+/*...................................copyrights_div......................................*/
+.copyrights_div{
+	font-size: 12px;
+	background-color: #333435;	
+	padding:15px 0px;
+	color:#6D6D6D;
+}
+.copyrights_div a{
+	color:white;
+	text-decoration: none;
+}
+/*/*...................................media_queries....................................*/
+@media screen and (max-width:600px){
+	body{
+		overflow-x: hidden;
+	}
+	#santo_carousel .carousel-inner .carousel-caption h3{
+		text-align: center!important;
+		font-size: 30px;
+	}
+	#santo_carousel .carousel-inner .carousel-caption{
+		padding-bottom: 150px;
+	}
+	#santo_carousel .carousel-inner .carousel-caption h1{
+		font-size: 40px;
+	}
+	.santo_navbar a{
+		padding:0;
+	}
+	.our_works h1{
+		font-size: 50px;
+	}
+	.our_works p{
+		width:100%;
+		margin:auto;
+		font-size: 18px;
+	}
+	.our_works .about_us{
+		width:100%;
+		margin:auto;
+		font-size: 18px;
+	}
+	.our_services h1{
+		font-size: 50px;
+	}
+	.our_services p{
+		width:100%;
+		margin:auto;
+		font-size: 18px;
+	}
+	.our_team h1{
+		font-size: 50px;
+	}
+	.always_ready h1{
+		font-size:30px;
+	}
+	.always_ready button{
+		width:50%;
+	}
+	.are_the_best h1{
+		font-size:30px;
+	}
+	.are_the_best button{
+		width:50%;
+	}
+	.customer_satisfaction h1{
+		font-size:30px;
+	}
+	.customer_satisfaction button{
+		width:50%;
+	}
+	#santo_carousel:hover .carousel-control-prev{
+		display:none;
+	}
+	#santo_carousel:hover .carousel-control-next{
+		display:none;
+	}
+	.portfolio_images img{
+		width:95%;
+		margin:auto;
+		margin-bottom: 10px;
+	}
+	.overlay{
+		padding-bottom: 0px;
+		width:105%;
+	}
+	.portfolio_images .bottom_text{
+		top:132px;
+	}
+	.contact_us_tabs .contact_us_tabs_content_office_col2 .card-body a{
+	font-size: 15px;
+	}
+	.contact_us_tabs .contact_us_tabs_content_office_col1 h1{
+		font-size:30px!important;
+	}
+	.contact_us_tabs_content_message .contact_us_tabs_content_message_col1 h1{
+		font-size:30px!important;
+	}
+
+	.tab_carousel .carousel1 ol{
+		position:relative;
+		top:260px;
+		left:-60px;
+	}
+	.happy_clients .happy_clients_border{
+		margin:0;
+	}
+}
