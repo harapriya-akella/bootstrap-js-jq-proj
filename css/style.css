@@ -19,8 +19,7 @@
 }
 /*.....................................navbar............................................*/
 .santo_navbar{
-	/*background-color: rgb(44, 44, 44);*/
-	transition: 0.5s ease;
+	transition: 1s ease;
 	padding: 0px;
 	margin:0px;
 }
@@ -32,6 +31,7 @@
 	margin-top:0px;
 	background-color:rgb(44, 44, 44);
 	margin-bottom: 0px;
+	transition: 0.5s ease;
 }
 .santo_navbar a{
 	padding-left: 150px;
@@ -54,6 +54,9 @@
 }
 .carousel_img_height{
 	height: 650px;
+}
+.menu-btn-default:focus{
+	box-shadow: none;
 }
 .hr_white_carousel{
 	background-color: white;
@@ -373,11 +376,18 @@
 }
 .tab_carousel .carousel1 ol{
 	position:relative;
-	top:334px;
-	left:-76px;
+	float: left;
+	margin:0!important;
+	top:335px;
+	padding:20px 15px;
 }
 .tab_carousel .carousel1 .carousel-indicators li{
 	width:5px;
+	background-color: transparent;
+	border:1px solid white; 
+}
+.tab_carousel .carousel1 .carousel-indicators .active{
+	background-color:white; 
 }
 .achievement_carousel {
 	padding-top: 50px;
@@ -879,7 +889,39 @@
 	color:white;
 	text-decoration: none;
 }
-/*/*...................................media_queries....................................*/
+/*...................................media_queries....................................*/
+
+@media screen and (max-width:800px){
+	.santo_navbar img{
+		padding:50px 0;
+	}
+	#santo_carousel .carousel-inner .carousel-caption h1{
+		font-size: 60px;
+	}
+	.carousel-control-prev, .carousel-control-next{
+		display: none;
+	}
+	.portfolio_images img{
+		margin-bottom:200px!important;
+	}
+	.overlay{
+		padding-bottom:213px!important;
+		margin-bottom: 25px;
+		width:96%;
+	}
+	.portfolio_images .bottom_text{
+		top:345px;	
+	}
+	.portfolio_images .overlay:hover .bottom_text{
+		top:380px;
+	}
+	.tab_carousel .carousel1 ol{
+		top:370px;
+	}
+	.contact_us_icons{
+		display:block;
+	}
+}
 @media screen and (max-width:600px){
 	body{
 		overflow-x: hidden;
@@ -969,10 +1011,10 @@
 
 	.tab_carousel .carousel1 ol{
 		position:relative;
-		top:260px;
-		left:-60px;
+		float: left;
 	}
 	.happy_clients .happy_clients_border{
 		margin:0;
 	}
 }
+
