@@ -13,10 +13,7 @@
 <body data-spy="scroll" data-target="#scrollspy_santo" data-offset="0" onload="setIntervalText()">
 	<script>
 		$(document).ready(function(){
-			// $(window).resize(function() {
-				// var window_size = window.matchMedia('(max-width: 800px)');
-    			// var width = $(window).width();
-    			if (window.matchMedia('(max-width: 800px)').matches) {
+    			if (window.matchMedia('(max-width: 900px)').matches) {
     				$(".santo_navbar").css("background-color","rgb(44, 44, 44)");
 				    $(document).scroll(function(){
 						if($(this).scrollTop()>300){
